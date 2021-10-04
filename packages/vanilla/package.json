@@ -13,5 +13,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@kuss/eslint-config-basic": "^2.0.0",
+    "@kuss/eslint-config-ts": "^2.0.0"
   }
 }
