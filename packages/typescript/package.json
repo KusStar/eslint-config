@@ -1,6 +1,6 @@
 {
 	"name": "@kuss/eslint-config-ts",
-	"version": "2.0.0",
+	"version": "2.1.0",
 	"description": "eslint-config-ts",
 	"keywords": [
 		"eslint-config"

@@ -1,6 +1,6 @@
 {
   "name": "@kuss/eslint-config-vanilla",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "eslint-config-vanilla",
   "keywords": [
     "eslint-config"
@@ -15,7 +15,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@kuss/eslint-config-basic": "^2.0.0",
-    "@kuss/eslint-config-ts": "^2.0.0"
+    "@kuss/eslint-config-basic": "^2.1.0",
+    "@kuss/eslint-config-ts": "^2.1.0"
   }
 }
