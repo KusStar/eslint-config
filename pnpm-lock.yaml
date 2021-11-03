@@ -38,8 +38,8 @@ importers:
 
   packages/vanilla:
     specifiers:
-      '@kuss/eslint-config-basic': ^2.2.0
-      '@kuss/eslint-config-ts': ^2.2.0
+      '@kuss/eslint-config-basic': workspace:^2.2.0
+      '@kuss/eslint-config-ts': workspace:^2.2.0
       eslint: ^8.1.0
     dependencies:
       '@kuss/eslint-config-basic': link:../ basic
