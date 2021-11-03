@@ -1,17 +1,11 @@
 {
   "name": "@kuss/eslint-config-root",
-  "version": "1.0.1",
   "description": "Eslint-config",
   "private": true,
   "keywords": [
     "eslint-config"
   ],
-  "devDependencies": {
-    "lerna": "^4.0.0"
-  },
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ]
+  "dependencies": {
+    "@changesets/cli": "^2.17.0"
   }
 }
