@@ -15,5 +15,6 @@ module.exports = {
     'space-before-function-paren': 'off',
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error'
-  }
+  },
+  ignorePatterns: ['**/dist/*', '**/build/*']
 }
