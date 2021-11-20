@@ -11,10 +11,10 @@ module.exports = {
     'simple-import-sort'
   ],
   rules: {
-    'multiline-comment-style': ['error'],
+    'multiline-comment-style': ['error', 'separate-lines'],
     'space-before-function-paren': 'off',
     'simple-import-sort/imports': 'error',
-    'simple-import-sort/exports': 'error'
+    'simple-import-sort/exports': 'error',
   },
   ignorePatterns: ['**/dist/*', '**/build/*']
 }
