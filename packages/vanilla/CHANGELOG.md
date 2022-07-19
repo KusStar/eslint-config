@@ -1,5 +1,17 @@
 # @kuss/eslint-config-vanilla
 
+## 2.5.0
+
+### Minor Changes
+
+- feat: upgrade deps
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @kuss/eslint-config-basic@2.5.0
+  - @kuss/eslint-config-ts@2.3.0
+
 ## 2.4.0
 
 ### Minor Changes
