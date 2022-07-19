@@ -1,0 +1,20 @@
+{
+  "name": "@kuss/eslint-config-react",
+  "version": "2.5.0",
+  "description": "eslint-config-react",
+  "keywords": [
+    "eslint-config"
+  ],
+  "devDependencies": {
+    "eslint": "^8.20.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.0",
+    "typescript": ">=4.0.0"
+  },
+  "dependencies": {
+    "@kuss/eslint-config-basic": "workspace:^2.5.0",
+    "@kuss/eslint-config-ts": "workspace:^2.3.0",
+    "eslint-plugin-react": "^7.30.1"
+  }
+}
