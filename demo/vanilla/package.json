@@ -1,0 +1,21 @@
+{
+  "name": "vanilla",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "yarn dev",
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "watch": "vite build --watch",
+    "serve": "vite preview",
+    "lint": "eslint --ext .ts ./",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "devDependencies": {
+    "@kuss/eslint-config-vanilla": "workspace:2.5.0",
+    "eslint": "8.20.0",
+    "typescript": "4.7.4",
+    "vite": "3.0.2"
+  },
+  "license": "MIT"
+}
