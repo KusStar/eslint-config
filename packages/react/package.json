@@ -1,6 +1,6 @@
 {
   "name": "@kuss/eslint-config-react",
-  "version": "2.6.0",
+  "version": "2.6.1",
   "description": "eslint-config-react",
   "keywords": [
     "eslint-config"
@@ -13,8 +13,8 @@
     "typescript": ">=4.0.0"
   },
   "dependencies": {
-    "@kuss/eslint-config-basic": "workspace:^2.5.0",
-    "@kuss/eslint-config-ts": "workspace:^2.3.0",
+    "@kuss/eslint-config-basic": "workspace:^2.6.1",
+    "@kuss/eslint-config-ts": "workspace:^2.6.1",
     "eslint-plugin-react": "^7.30.1"
   }
 }
