@@ -7,5 +7,10 @@ module.exports = {
   ],
   rules: {
     "@typescript-eslint/no-empty-interface": "off",
+  },
+  settings: {
+    react: {
+      version: 'detect'
+    }
   }
 }

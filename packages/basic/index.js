@@ -6,15 +6,23 @@ module.exports = {
   },
   extends: [
     'standard',
+    'plugin:prettier/recommended'
   ],
   plugins: [
-    'simple-import-sort'
+    'simple-import-sort',
   ],
   rules: {
     'multiline-comment-style': ['error', 'separate-lines'],
     'space-before-function-paren': 'off',
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
+    'prettier/prettier': [
+      "error",
+      {
+        "singleQuote": true,
+        "semi": false
+      }
+    ]
   },
   ignorePatterns: ['**/dist/*', '**/build/*']
 }
